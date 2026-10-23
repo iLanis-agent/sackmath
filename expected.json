@@ -1,0 +1,971 @@
+{
+ "cases": [
+  {
+   "fn": "sacks",
+   "args": [
+    "283",
+    "7"
+   ],
+   "expect": "The 283 lemons at 7 lemons a sack take 41 sacks, the last sack holding 3 lemons."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "283",
+    "20"
+   ],
+   "expect": "The 283 lemons at 20 lemons a week last 14 full weeks with 3 lemons left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41",
+    "6.50",
+    "283"
+   ],
+   "expect": "The 41 sacks at $6.50 a sack come to $266.50, $0.94 a lemon."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "283",
+    "4"
+   ],
+   "expect": "The 283 lemons at 4 lemons a minute take 71 minutes, 1 hour 11 minutes."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lemon at 1 lemon a sack takes 1 sack, the last sack holding 1 lemon."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "360",
+    "8"
+   ],
+   "expect": "The 360 lemons at 8 lemons a sack take 45 sacks, the last sack holding 8 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "1000000",
+    "1000"
+   ],
+   "expect": "The 1000000 lemons at 1000 lemons a sack take 1000 sacks, the last sack holding 1000 lemons."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lemon at 1 lemon a week lasts 1 full week with 0 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "360",
+    "30"
+   ],
+   "expect": "The 360 lemons at 30 lemons a week last 12 full weeks with 0 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "1000000",
+    "100000"
+   ],
+   "expect": "The 1000000 lemons at 100000 lemons a week last 10 full weeks with 0 lemons left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "0.01",
+    "1"
+   ],
+   "expect": "The 1 sack at $0.01 a sack comes to $0.01, $0.01 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "999.99",
+    "1000000"
+   ],
+   "expect": "The 100000 sacks at $999.99 a sack come to $99999000.00, $100.00 a lemon."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 lemon at 1 lemon a minute takes 1 minute, 0 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "60",
+    "1"
+   ],
+   "expect": "The 60 lemons at 1 lemon a minute take 60 minutes, 1 hour 0 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "1000000",
+    "100"
+   ],
+   "expect": "The 1000000 lemons at 100 lemons a minute take 10000 minutes, 166 hours 40 minutes."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "501915",
+    "724"
+   ],
+   "expect": "The 501915 lemons at 724 lemons a sack take 694 sacks, the last sack holding 183 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "669098",
+    "37"
+   ],
+   "expect": "The 669098 lemons at 37 lemons a sack take 18084 sacks, the last sack holding 27 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "514691",
+    "137"
+   ],
+   "expect": "The 514691 lemons at 137 lemons a sack take 3757 sacks, the last sack holding 119 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "409858",
+    "546"
+   ],
+   "expect": "The 409858 lemons at 546 lemons a sack take 751 sacks, the last sack holding 358 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "325568",
+    "540"
+   ],
+   "expect": "The 325568 lemons at 540 lemons a sack take 603 sacks, the last sack holding 488 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "323284",
+    "596"
+   ],
+   "expect": "The 323284 lemons at 596 lemons a sack take 543 sacks, the last sack holding 252 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "547189",
+    "210"
+   ],
+   "expect": "The 547189 lemons at 210 lemons a sack take 2606 sacks, the last sack holding 139 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "635891",
+    "343"
+   ],
+   "expect": "The 635891 lemons at 343 lemons a sack take 1854 sacks, the last sack holding 312 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "757496",
+    "312"
+   ],
+   "expect": "The 757496 lemons at 312 lemons a sack take 2428 sacks, the last sack holding 272 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "375471",
+    "307"
+   ],
+   "expect": "The 375471 lemons at 307 lemons a sack take 1224 sacks, the last sack holding 10 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "321921",
+    "989"
+   ],
+   "expect": "The 321921 lemons at 989 lemons a sack take 326 sacks, the last sack holding 496 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "380745",
+    "659"
+   ],
+   "expect": "The 380745 lemons at 659 lemons a sack take 578 sacks, the last sack holding 502 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "203321",
+    "273"
+   ],
+   "expect": "The 203321 lemons at 273 lemons a sack take 745 sacks, the last sack holding 209 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "580820",
+    "820"
+   ],
+   "expect": "The 580820 lemons at 820 lemons a sack take 709 sacks, the last sack holding 260 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "229573",
+    "386"
+   ],
+   "expect": "The 229573 lemons at 386 lemons a sack take 595 sacks, the last sack holding 289 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "481391",
+    "640"
+   ],
+   "expect": "The 481391 lemons at 640 lemons a sack take 753 sacks, the last sack holding 111 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "219398",
+    "367"
+   ],
+   "expect": "The 219398 lemons at 367 lemons a sack take 598 sacks, the last sack holding 299 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "539409",
+    "759"
+   ],
+   "expect": "The 539409 lemons at 759 lemons a sack take 711 sacks, the last sack holding 519 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "182274",
+    "844"
+   ],
+   "expect": "The 182274 lemons at 844 lemons a sack take 216 sacks, the last sack holding 814 lemons."
+  },
+  {
+   "fn": "sacks",
+   "args": [
+    "696738",
+    "856"
+   ],
+   "expect": "The 696738 lemons at 856 lemons a sack take 814 sacks, the last sack holding 810 lemons."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "756268",
+    "55051"
+   ],
+   "expect": "The 756268 lemons at 55051 lemons a week last 13 full weeks with 40605 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "87281",
+    "77697"
+   ],
+   "expect": "The 87281 lemons at 77697 lemons a week last 1 full week with 9584 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "862328",
+    "67597"
+   ],
+   "expect": "The 862328 lemons at 67597 lemons a week last 12 full weeks with 51164 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "769035",
+    "58946"
+   ],
+   "expect": "The 769035 lemons at 58946 lemons a week last 13 full weeks with 2737 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "92607",
+    "27560"
+   ],
+   "expect": "The 92607 lemons at 27560 lemons a week last 3 full weeks with 9927 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "460492",
+    "57104"
+   ],
+   "expect": "The 460492 lemons at 57104 lemons a week last 8 full weeks with 3660 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "237653",
+    "31144"
+   ],
+   "expect": "The 237653 lemons at 31144 lemons a week last 7 full weeks with 19645 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "201149",
+    "14906"
+   ],
+   "expect": "The 201149 lemons at 14906 lemons a week last 13 full weeks with 7371 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "363856",
+    "79473"
+   ],
+   "expect": "The 363856 lemons at 79473 lemons a week last 4 full weeks with 45964 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "106076",
+    "60982"
+   ],
+   "expect": "The 106076 lemons at 60982 lemons a week last 1 full week with 45094 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "871016",
+    "77779"
+   ],
+   "expect": "The 871016 lemons at 77779 lemons a week last 11 full weeks with 15447 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "545771",
+    "82162"
+   ],
+   "expect": "The 545771 lemons at 82162 lemons a week last 6 full weeks with 52799 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "705895",
+    "97256"
+   ],
+   "expect": "The 705895 lemons at 97256 lemons a week last 7 full weeks with 25103 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "694768",
+    "1547"
+   ],
+   "expect": "The 694768 lemons at 1547 lemons a week last 449 full weeks with 165 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "497498",
+    "43682"
+   ],
+   "expect": "The 497498 lemons at 43682 lemons a week last 11 full weeks with 16996 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "81745",
+    "68602"
+   ],
+   "expect": "The 81745 lemons at 68602 lemons a week last 1 full week with 13143 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "44762",
+    "37730"
+   ],
+   "expect": "The 44762 lemons at 37730 lemons a week last 1 full week with 7032 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "814191",
+    "40769"
+   ],
+   "expect": "The 814191 lemons at 40769 lemons a week last 19 full weeks with 39580 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "104713",
+    "97499"
+   ],
+   "expect": "The 104713 lemons at 97499 lemons a week last 1 full week with 7214 lemons left for the next week."
+  },
+  {
+   "fn": "weeks",
+   "args": [
+    "841544",
+    "48877"
+   ],
+   "expect": "The 841544 lemons at 48877 lemons a week last 17 full weeks with 10635 lemons left for the next week."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "70155",
+    "178.97",
+    "208447"
+   ],
+   "expect": "The 70155 sacks at $178.97 a sack come to $12555640.35, $60.23 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "63890",
+    "162.88",
+    "938809"
+   ],
+   "expect": "The 63890 sacks at $162.88 a sack come to $10406403.20, $11.08 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41458",
+    "203.11",
+    "681008"
+   ],
+   "expect": "The 41458 sacks at $203.11 a sack come to $8420534.38, $12.36 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86478",
+    "723.14",
+    "920858"
+   ],
+   "expect": "The 86478 sacks at $723.14 a sack come to $62535700.92, $67.91 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "2757",
+    "515.03",
+    "698248"
+   ],
+   "expect": "The 2757 sacks at $515.03 a sack come to $1419937.71, $2.03 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "14004",
+    "629.2",
+    "553417"
+   ],
+   "expect": "The 14004 sacks at $629.20 a sack come to $8811316.80, $15.92 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "26136",
+    "931.33",
+    "849650"
+   ],
+   "expect": "The 26136 sacks at $931.33 a sack come to $24341240.88, $28.65 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "21108",
+    "653.28",
+    "46222"
+   ],
+   "expect": "The 21108 sacks at $653.28 a sack come to $13789434.24, $298.33 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "90691",
+    "687.62",
+    "622204"
+   ],
+   "expect": "The 90691 sacks at $687.62 a sack come to $62360945.42, $100.23 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "99061",
+    "922.54",
+    "617836"
+   ],
+   "expect": "The 99061 sacks at $922.54 a sack come to $91387734.94, $147.92 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "51982",
+    "534.04",
+    "870062"
+   ],
+   "expect": "The 51982 sacks at $534.04 a sack come to $27760467.28, $31.91 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "3176",
+    "877.29",
+    "542605"
+   ],
+   "expect": "The 3176 sacks at $877.29 a sack come to $2786273.04, $5.13 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "98975",
+    "563.85",
+    "909551"
+   ],
+   "expect": "The 98975 sacks at $563.85 a sack come to $55807053.75, $61.36 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "152",
+    "647.14",
+    "944158"
+   ],
+   "expect": "The 152 sacks at $647.14 a sack come to $98365.28, $0.10 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "18351",
+    "371.94",
+    "186630"
+   ],
+   "expect": "The 18351 sacks at $371.94 a sack come to $6825470.94, $36.57 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "53406",
+    "977.93",
+    "994579"
+   ],
+   "expect": "The 53406 sacks at $977.93 a sack come to $52227329.58, $52.51 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57413",
+    "357.93",
+    "93896"
+   ],
+   "expect": "The 57413 sacks at $357.93 a sack come to $20549835.09, $218.86 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "36970",
+    "718.58",
+    "196907"
+   ],
+   "expect": "The 36970 sacks at $718.58 a sack come to $26565902.60, $134.92 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "28654",
+    "52.86",
+    "854113"
+   ],
+   "expect": "The 28654 sacks at $52.86 a sack come to $1514650.44, $1.77 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "78814",
+    "181.4",
+    "836022"
+   ],
+   "expect": "The 78814 sacks at $181.40 a sack come to $14296859.60, $17.10 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "16272",
+    "594.08",
+    "973464"
+   ],
+   "expect": "The 16272 sacks at $594.08 a sack come to $9666869.76, $9.93 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83896",
+    "192.83",
+    "201659"
+   ],
+   "expect": "The 83896 sacks at $192.83 a sack come to $16177665.68, $80.22 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "86881",
+    "78.46",
+    "34206"
+   ],
+   "expect": "The 86881 sacks at $78.46 a sack come to $6816683.26, $199.28 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "65258",
+    "942.09",
+    "123062"
+   ],
+   "expect": "The 65258 sacks at $942.09 a sack come to $61478909.22, $499.58 a lemon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "76386",
+    "33.34",
+    "737462"
+   ],
+   "expect": "The 76386 sacks at $33.34 a sack come to $2546709.24, $3.45 a lemon."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "511382",
+    "45"
+   ],
+   "expect": "The 511382 lemons at 45 lemons a minute take 11365 minutes, 189 hours 25 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "780395",
+    "36"
+   ],
+   "expect": "The 780395 lemons at 36 lemons a minute take 21678 minutes, 361 hours 18 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "117017",
+    "51"
+   ],
+   "expect": "The 117017 lemons at 51 lemons a minute take 2295 minutes, 38 hours 15 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "625435",
+    "33"
+   ],
+   "expect": "The 625435 lemons at 33 lemons a minute take 18953 minutes, 315 hours 53 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "56158",
+    "96"
+   ],
+   "expect": "The 56158 lemons at 96 lemons a minute take 585 minutes, 9 hours 45 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "964015",
+    "33"
+   ],
+   "expect": "The 964015 lemons at 33 lemons a minute take 29213 minutes, 486 hours 53 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "912652",
+    "64"
+   ],
+   "expect": "The 912652 lemons at 64 lemons a minute take 14261 minutes, 237 hours 41 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "463530",
+    "75"
+   ],
+   "expect": "The 463530 lemons at 75 lemons a minute take 6181 minutes, 103 hours 1 minute."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "166212",
+    "46"
+   ],
+   "expect": "The 166212 lemons at 46 lemons a minute take 3614 minutes, 60 hours 14 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "293105",
+    "52"
+   ],
+   "expect": "The 293105 lemons at 52 lemons a minute take 5637 minutes, 93 hours 57 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "185367",
+    "25"
+   ],
+   "expect": "The 185367 lemons at 25 lemons a minute take 7415 minutes, 123 hours 35 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "328025",
+    "16"
+   ],
+   "expect": "The 328025 lemons at 16 lemons a minute take 20502 minutes, 341 hours 42 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "309095",
+    "79"
+   ],
+   "expect": "The 309095 lemons at 79 lemons a minute take 3913 minutes, 65 hours 13 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "522008",
+    "65"
+   ],
+   "expect": "The 522008 lemons at 65 lemons a minute take 8031 minutes, 133 hours 51 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "344219",
+    "18"
+   ],
+   "expect": "The 344219 lemons at 18 lemons a minute take 19124 minutes, 318 hours 44 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "765435",
+    "37"
+   ],
+   "expect": "The 765435 lemons at 37 lemons a minute take 20688 minutes, 344 hours 48 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "532190",
+    "14"
+   ],
+   "expect": "The 532190 lemons at 14 lemons a minute take 38014 minutes, 633 hours 34 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "82358",
+    "41"
+   ],
+   "expect": "The 82358 lemons at 41 lemons a minute take 2009 minutes, 33 hours 29 minutes."
+  },
+  {
+   "fn": "time",
+   "args": [
+    "266728",
+    "54"
+   ],
+   "expect": "The 266728 lemons at 54 lemons a minute take 4940 minutes, 82 hours 20 minutes."
+  }
+ ],
+ "errors": [
+  [
+   "sacks",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "sacks",
+   [
+    "1000001",
+    "8"
+   ]
+  ],
+  [
+   "sacks",
+   [
+    "2.5",
+    "8"
+   ]
+  ],
+  [
+   "sacks",
+   [
+    "283",
+    "0"
+   ]
+  ],
+  [
+   "sacks",
+   [
+    "283",
+    "1001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "0",
+    "30"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "283",
+    "0"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "283",
+    "100001"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "283",
+    "1.5"
+   ]
+  ],
+  [
+   "weeks",
+   [
+    "1000001",
+    "30"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "0",
+    "12.75",
+    "283"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "100001",
+    "12.75",
+    "283"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "0",
+    "283"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.755",
+    "283"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "46",
+    "12.75",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "0",
+    "8"
+   ]
+  ],
+  [
+   "time",
+   [
+    "283",
+    "0"
+   ]
+  ],
+  [
+   "time",
+   [
+    "283",
+    "101"
+   ]
+  ],
+  [
+   "time",
+   [
+    "283",
+    "6.5"
+   ]
+  ],
+  [
+   "time",
+   [
+    "1000001",
+    "5"
+   ]
+  ]
+ ]
+}
